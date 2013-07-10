@@ -1,8 +1,8 @@
-(deftheme julien
+(deftheme julokai
   "Created 2013-07-02.")
 
 (custom-theme-set-faces
- 'julien
+ 'julokai
  '(default ((t (:family "Source_Code_Pro" :foundry "apple" :width normal :height 140 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "#f8f8f0" :background "#1b1d1e" :stipple nil :inherit nil))))
  '(cursor ((t (:foreground "#1b1d1e" :background "#f8f8f0"))))
  '(fixed-pitch ((t (:family "Monospace"))))
@@ -48,4 +48,4 @@
  '(next-error ((t (:inherit (region)))))
  '(query-replace ((t (:inherit (lazy-highlight))))))
 
-(provide-theme 'julien)
+(provide-theme 'julokai)
