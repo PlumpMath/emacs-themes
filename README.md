@@ -1,2 +1,2 @@
-# My Emacs 24 themes
+My Emacs 24 themes
 
