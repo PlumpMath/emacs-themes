@@ -1,3 +1,14 @@
+;;; mesa-theme.el --- Modified Mesa theme
+
+;;; Commentary:
+;;
+;;; Mesa Theme
+;;
+;; Originally by JasonM23 https://github.com/jasonm23
+;; Updated by Julien Blanchard <julien@sideburns.eu>
+
+;;; Code:
+
 (deftheme mesa
   "mesa theme")
 
@@ -60,4 +71,5 @@
  '(tooltip             ((t (:foreground "black"        :background "LightYellow"                    :inherit (variable-pitch)         ))))
 )
 
-(provide-theme 'mesa)
+(provide-theme 'mesa-theme)
+;;; mesa-theme ends here
