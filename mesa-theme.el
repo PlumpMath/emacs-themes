@@ -71,5 +71,5 @@
  '(tooltip             ((t (:foreground "black"        :background "LightYellow"                    :inherit (variable-pitch)         ))))
 )
 
-(provide-theme 'mesa-theme)
+(provide-theme 'mesa)
 ;;; mesa-theme ends here
