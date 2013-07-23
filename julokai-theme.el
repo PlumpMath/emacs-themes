@@ -19,7 +19,7 @@
 ;; along with this file.  If not, see <http://www.gnu.org/licenses/>.
 
 (deftheme julokai
-  "Created 2013-07-02.")
+  "julokai emacs theme")
 
 (let ((midnight          "#303347")
       (midnight-1        "#2e3043")
@@ -120,7 +120,7 @@
    ((t (:weight bold :foreground "#f92672"))))
 
  '(font-lock-negation-char-face
-   ((t (:weight bold :foreground dark-magenta))))
+   ((t (:bold, t, :foreground, "#960050"))))
 
  '(font-lock-preprocessor-face
    ((t (:foreground "#cebca5" :inherit (font-lock-builtin-face)))))
@@ -180,7 +180,7 @@
    ((t (:weight bold :background "#c4be89" :foreground "#000000"))))
 
  '(isearch-fail
-   ((t (:background "#1e0010" :foreground dark-magenta))))
+   ((t (:background "#1e0010" :foreground "#960050"))))
 
  '(lazy-highlight
    ((t (:weight bold :foreground "#f9b529" :background "#2a2c3e"))))
@@ -191,6 +191,6 @@
    ((t (:inherit (region)))))
 
  '(query-replace
-   ((t (:inherit (lazy-highlight))))))
+   ((t (:inherit (lazy-highlight)))))))
 
 (provide-theme 'julokai)
