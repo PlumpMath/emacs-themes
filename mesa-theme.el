@@ -34,6 +34,7 @@
  '(shadow              ((t (:foreground "#999999"                                                               ))))
  '(secondary-selection ((t (:background "grey20"                                                                ))))
  '(trailing-whitespace ((t (:background "#ff0000"                                                               ))))
+ '(vertical-border     ((t (:foreground "#697799"))))
 
  '(font-lock-builtin-face              ((t (:foreground "DodgerBlue4"  :background nil                                   ))))
  '(font-lock-comment-face              ((t (:foreground "#697799"      :background nil :slant italic                     ))))
