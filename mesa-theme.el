@@ -70,7 +70,7 @@
  '(lazy-highlight       ((t (                           :background "#77bbdd"                                                          ))))
  '(match                ((t (                           :background "#3388cc"                                                          ))))
  '(tooltip              ((t (:foreground "black"        :background "LightYellow"                    :inherit (variable-pitch)         ))))
- '(magit-item-highlight ((t (:foreground "grey50"       :background "#ECE8E1"                                                          ))))
+ '(magit-item-highlight ((t (:background "#ECE8E1"                                                                                     ))))
 )
 
 (provide-theme 'mesa)
